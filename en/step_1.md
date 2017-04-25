@@ -47,4 +47,22 @@ You should already have your authentication details in **json** format before st
 	
 1. Now head on over to [Twitter.com](https://twitter.com) and you should see your tweet has been displayed.
 
+	![tweet](images/tweet1.png)
+
 1. Note that Twitter doesn't like duplicate tweets, so it you want to send another one, be sure to alter the string that you are sending.
+
+### Sending and image
+
+1. If you want to send an image, then you can change the last line of code slightly.
+
+	~~~python
+	twitter.update_with_media('/path/to/image.jpg', 'your status update')
+	~~~
+
+	so if you had an image called `cat.png` in the same directory as your python file, it would be as simple as:
+	
+	~~~python
+	twitter.update_with_media('cat.png', 'The Internet needs more cats.')
+	~~~
+	
+	![cat tweet](images/tweet2.png)

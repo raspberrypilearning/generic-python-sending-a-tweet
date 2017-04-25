@@ -9,5 +9,4 @@ auth.set_access_token(secrets['Access_Token'], secrets['Access_Token_Secret'])
 
 twitter = tweepy.API(auth)
 
-twitter.update_with_media(
-    '/home/mjs/Slash-Learning/ingredients/rpi-copying-files/en/images/file-manager.png', 'image test')
+twitter.update_with_media('cat.png', 'The Internet needs more cats.')
