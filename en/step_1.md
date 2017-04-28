@@ -1,8 +1,8 @@
-## Sending a Tweet with Python
+### Sending a Tweet with Python
 
 You should already have your authentication details in **json** format before starting this section. If you have not yet registered and app with Twitter, then look at [this project]().
 
-### Getting Tweepy
+#### Getting Tweepy
 
 1. The module you are going to use is called Tweepy, so if it's not already installed then you can get it using **pip**
 
@@ -10,7 +10,7 @@ You should already have your authentication details in **json** format before st
 	sudo pip3 install tweepy
 	~~~
 
-### Sending a tweet
+#### Sending a tweet
 
 1. Open IDLE and create a new Python file. You could call it `tweeter.py`.
 
@@ -51,7 +51,7 @@ You should already have your authentication details in **json** format before st
 
 1. Note that Twitter doesn't like duplicate tweets, so it you want to send another one, be sure to alter the string that you are sending.
 
-### Sending and image
+#### Sending and image
 
 1. If you want to send an image, then you can change the last line of code slightly.
 
