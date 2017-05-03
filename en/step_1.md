@@ -33,10 +33,10 @@ You should already have your authentication details in **json** format before st
 1. Now you need to provide your authentication details to the Twitter API. The Following lines of code, will load your details and prepare the API connection
 
 	~~~python
-	auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-	auth.set_access_token(access_token, access_token_secret)
+	auth = tweepy.OAuthHandler(secrets['consumer_key'], secrets['consumer_secret'])
+	auth.set_access_token(secrets['access_token'], secrets['access_token_secret'])
 
-	api = tweepy.API(auth)
+	twitter = tweepy.API(auth)
 	~~~
 
 1. Lastly you can send a tweet with a single line of code.
