@@ -1,10 +1,13 @@
 title: Sending a tweet with Python
 hero_image: images/banner.png
-subtitle: python-sending-a-tweet subtitle
-description: python-sending-a-tweet description
-original_url: https://codeclubprojects.org/en-GB/scratch/rock-band
+description: Send tweets using Python
+original_url:
 theme: cc-prototype
-published: false
+durarion: 1
+ingredient: true
+copyedit: false
+interests:
+technologies: "python"
 steps:
   - title: Send a tweet
 
