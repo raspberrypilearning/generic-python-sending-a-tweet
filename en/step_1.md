@@ -45,7 +45,7 @@ You should already have authentication details for your app in **JSON** format b
 	
 - If you head on over to [Twitter.com](https://twitter.com) now, you should see that your tweet has been posted.
 
-	![tweet](images/tweet-png)
+	![tweet](images/tweet1.png)
 
 - Note that Twitter doesn't like duplicate tweets, so it you want to send another one, be sure to alter the string that you are sending.
 
