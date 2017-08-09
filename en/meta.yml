@@ -1,0 +1,13 @@
+title: Sending a tweet with Python
+hero_image: images/banner.png
+description: Send tweets using Python
+original_url:
+theme: cc-prototype
+durarion: 1
+ingredient: true
+copyedit: true
+interests:
+technologies: "python"
+steps:
+  - title: Send a tweet
+
