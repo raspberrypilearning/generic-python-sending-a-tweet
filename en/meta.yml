@@ -5,6 +5,7 @@ original_url:
 theme: cc-prototype
 durarion: 1
 ingredient: true
+listed: false
 copyedit: true
 interests:
 technologies: "python"
